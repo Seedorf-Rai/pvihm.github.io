@@ -195,3 +195,17 @@ html{
    i{
     color: white;
    }
+   .who-are-we-img{
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
+}
+.motive ul li p{
+    font-size: 20px;
+}
+.motive-img{
+    border-radius: 10px;
+}
+.blog-a{
+    color: black;
+}
