@@ -5,8 +5,14 @@
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
 }
+body{
+    overflow-x: hidden;
+}
 html{
     scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
 }
 .top{
     background-color: #022B5B;
@@ -208,4 +214,83 @@ html{
 }
 .blog-a{
     color: black;
+}
+.course-div a .card h5{
+    color: black;
+}
+.course-div a .card{
+    transition: 0.5s;
+}
+.course-div a .card:hover{
+  background-color: #d4d4d4;
+}
+.hm-div{
+    height: 30vh;
+    width: 100vw;
+    background-image: url('/images/IMG_9957.JPG');
+    background-position:  bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(42, 39, 189, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hm-div h1{
+    color: #FCEF02;
+}
+.cul-div{
+    height: 30vh;
+    width: 100vw;
+    background-image: url('/images/IMG_0049.JPG');
+    background-position:  bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(42, 39, 189, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cul-div h1{
+    color: #FCEF02;
+}
+.adhm1{
+    height: 30vh;
+    width: 100vw;
+    background-image: url('/images/IMG_0139.JPG');
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(42, 39, 189, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.adhm1 h1{
+    color: #FCEF02;
+}
+.dip-div{
+    height: 30vh;
+    width: 100vw;
+    background-image: url('/images/IMG_9944.JPG');
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(42, 39, 189, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dip-div h1{
+    color: #FCEF02;
+}
+.carousel-inner{
+    height: 90vh !important;
 }
