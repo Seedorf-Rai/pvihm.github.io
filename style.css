@@ -294,3 +294,28 @@ a{
 .carousel-inner{
     height: 90vh !important;
 }
+@media (max-width:500px){
+    iframe{
+        width: 100%;
+    }
+}
+i{
+    color: #FFAB01;
+    margin-right: 20px ;
+}
+.cnt-ic{
+    margin-right: 20px;
+    color: #FFAB01;
+}
+.cnt-fb{
+    color: #0E8CF3;
+}
+.cnt-inst{
+    color: #F83E31;
+}
+.cnt-yt{
+    color: #FE0001;
+}
+.cnt-ln{
+    color: #68A9E6;
+}
