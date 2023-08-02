@@ -320,6 +320,9 @@ i{
     color: #68A9E6;
 }
 @media  (min-width: 300px) and (max-width: 700px){
+    html,body{
+        overflow-x: hidden;
+    }
    .contact-info-1{
     display: flex;
     flex-direction: column;
