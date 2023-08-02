@@ -227,7 +227,7 @@ a{
 .hm-div{
     height: 30vh;
     width: 100vw;
-    background-image: url('/images/IMG_9957.JPG');
+    background-image: url('images/IMG_9957.JPG');
     background-position:  bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,7 +244,7 @@ a{
 .cul-div{
     height: 30vh;
     width: 100vw;
-    background-image: url('/images/IMG_0049.JPG');
+    background-image: url('images/IMG_0049.JPG');
     background-position:  bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -261,7 +261,7 @@ a{
 .adhm1{
     height: 30vh;
     width: 100vw;
-    background-image: url('/images/IMG_0139.JPG');
+    background-image: url('images/IMG_0139.JPG');
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -278,7 +278,7 @@ a{
 .dip-div{
     height: 30vh;
     width: 100vw;
-    background-image: url('/images/IMG_9944.JPG');
+    background-image: url('images/IMG_9944.JPG');
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
