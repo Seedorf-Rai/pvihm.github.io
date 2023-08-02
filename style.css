@@ -67,15 +67,15 @@ a{
     display: flex;
     gap: 10px;
     padding-left: 2rem;
+    align-items: end;
     justify-content: center;
     align-items: center;
 }
-.cont-h{
-    color: #69a2ed;
-    font-weight: 600;
-}
 .cont-c{
     color: rgba(240, 233, 233, 0.903);
+}
+.cont-h{
+    color: rgb(192, 255, 253);
 }
 .navbar{
     background-color: #003675;
@@ -292,7 +292,7 @@ a{
     color: #FCEF02;
 }
 .carousel-inner{
-    height: 90vh !important;
+    height:  45rem !important;
 }
 @media (max-width:500px){
     iframe{
@@ -318,4 +318,79 @@ i{
 }
 .cnt-ln{
     color: #68A9E6;
+}
+@media  (min-width: 300px) and (max-width: 700px){
+   .contact-info-1{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-right: 0px;
+    width: 50%;
+    text-align: center;
+   }
+   .contact-info-2{
+    display: flex;
+    flex-direction: column
+   }
+   .top2-ch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .cont-h{
+    font-size: 14px;
+}
+.cont-c{
+  font-size: 10px;
+  position: relative;
+  top: -.5rem;
+}
+.navbar-toggle-icon{
+    color: white !important;
+}
+.carousel-inner{
+    height: auto !important;
+}
+.wel-box{
+    flex-direction: column;
+}
+.wel-img{
+    width: auto;
+}
+.wel-text{
+    width: auto;
+    padding: 2rem 1rem;
+}
+.rev-div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    align-items: center;
+
+}
+.rev-div .card{
+    margin-bottom: 15px;
+}
+.number-div{
+    flex-direction: column;
+}
+.number{
+    padding: 3rem 3rem;
+}
+.number-box{
+    width: auto;
+}
+.course-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.course-div .card{
+    margin-bottom: 15px;
+}
+.contact-box-div{
+    position: relative;
+    left: 3rem;
+    align-items: center;
+}
 }
