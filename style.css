@@ -397,3 +397,74 @@ i{
     align-items: center;
 }
 }
+@media (min-width: 576px) and (max-width: 780px){
+    .link-foot{
+        margin: 0 20px;
+    }
+    .know-foot{
+        margin: 0 0 20px 0;
+    }
+
+}
+@media (min-width: 700px) and (max-width: 1200px){
+    .wel-box{
+        flex-direction: column;
+    /* margin-top: 0;
+    position: relative;
+    top: -2%; */
+    }
+
+    .hero{
+        height: 68vw !important;
+    }
+    .w-svs-sdv{
+        display: flex !important;
+        align-items: center !important;
+        margin-left: auto;
+    }
+    .rev-div{
+        padding-left: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .rev-div .card{
+        margin-bottom: 15px;
+    }
+    .number{
+        padding: 2.3rem 2rem;
+    }
+    .number-box{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .number-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .course-div{
+        grid-template-columns: 1fr 1fr;
+    }
+    .course-div .card{
+        margin-bottom: 15px;
+    }
+  .cont-sv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .klmsf{
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 1200px) and (max-width:1400px){
+   .who-are-we-img{
+    position: relative;
+    top: 6%;
+   }
+   .course-div{
+    display: flex;
+    gap: 15px;
+   }
+}
