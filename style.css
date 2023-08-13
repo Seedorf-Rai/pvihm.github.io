@@ -91,16 +91,17 @@ a{
 }
 .wel-box{
     display: flex;
+    justify-content: space-between;
     margin-top: 4rem;
 }
 .wel-img{
-    width: 40rem;
+    width: 30rem;
     /* height: 34rem; */
     object-fit: cover;
 }
 .wel-text{
     background-color: #003675;
-    width: 40rem;
+    width: 50rem;
     /* height: 34rem; */
     color: white;
     font-family: 'Roboto Slab', serif;
@@ -161,6 +162,29 @@ a{
     width: 300px;
     height: 200px;
     object-fit: contain;
+}
+.aff-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.lcci{
+    padding: 30px 40px;
+    background-color: #E5E5E4;
+}
+.sqa{
+    padding: 20px;
+    background-color: #E5E5E4;
+}
+.aff-logo-1{
+    width: 10rem;height: 10rem;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.aff-logo-2{
+    width: 40rem;height: 10rem;
+    margin-bottom: 20px;
+    object-fit: cover;
 }
 .footer-div a{
     text-decoration: none;
@@ -227,8 +251,8 @@ a{
 .hm-div{
     height: 30vh;
     width: 100vw;
-    background-image: url('images/IMG_9957.JPG');
-    background-position:  bottom center;
+    background-image: url('images/index3.jpg');
+    background-position:  center ;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -278,7 +302,7 @@ a{
 .dip-div{
     height: 30vh;
     width: 100vw;
-    background-image: url('images/IMG_9944.JPG');
+    background-image: url('images/test-2.jpg');
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -322,6 +346,10 @@ i{
 @media  (min-width: 300px) and (max-width: 700px){
     html,body{
         overflow-x: hidden;
+    }
+    .aff-div{
+        display: flex;
+        flex-direction: column;
     }
    .contact-info-1{
     display: flex;
