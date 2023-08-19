@@ -318,6 +318,10 @@ a{
 .carousel-inner{
     height:  45rem !important;
 }
+.credit-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 @media (max-width:500px){
     iframe{
         width: 100%;
@@ -350,6 +354,10 @@ i{
     .aff-div{
         display: flex;
         flex-direction: column;
+    }
+    .credit-box{
+        display: grid;
+        grid-template-columns:  1fr;
     }
    .contact-info-1{
     display: flex;
