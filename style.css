@@ -251,7 +251,7 @@ a{
 .hm-div{
     height: 30vh;
     width: 100vw;
-    background-image: url('images/index3.jpg');
+    background-image: url('images/hm.jpg');
     background-position:  center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -268,7 +268,7 @@ a{
 .cul-div{
     height: 30vh;
     width: 100vw;
-    background-image: url('images/IMG_0049.JPG');
+    background-image: url('images/culinary.jpg');
     background-position:  bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -285,7 +285,7 @@ a{
 .adhm1{
     height: 30vh;
     width: 100vw;
-    background-image: url('images/IMG_0139.JPG');
+    background-image: url('images/adhm.JPG');
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -302,7 +302,7 @@ a{
 .dip-div{
     height: 30vh;
     width: 100vw;
-    background-image: url('images/test-2.jpg');
+    background-image: url('images/diploma.jpg');
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
