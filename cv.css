@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.add-more{
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #666666;
+}
+/* .training .row .col-md-6{
+    margin-left: 4px;
+} */
+.cv-box{
+    width: 800px;
+    height: 1000px;
+    /* background:red; */
+    /* border: 1px solid black; */
+}
+.blue-box{
+    width: 150px;
+    height: 150px;
+    background-color: #1d3745;
+    position: relative;
+}
+.p-img-d{
+    width: 150px;
+    height: 150px;
+  border: 5px solid #162731;
+  object-fit: cover;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-out-w{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 15%;
+    bottom: -30%;
+}
+.left-div-content{
+    margin-top: 20%;
+    margin-left: 10% ;
+    /* padding: 0 30px; */
+}
+.about-section{
+    font-size: 12px;
+    /* text-align: center; */
+    /* margin-bottom: 60px; */
+}
+p{
+    font-size: 12px !important;
+}
+.font-div{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    background-color: #1d3745;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font-div i{
+    color: white;
+    font-size: 15px !important;
+    margin-left: 18px;
+}
+.head-box{
+    width: 98%;
+    background-color: #1d3745;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* height: 26px; */
+}
+h3{
+    font-size: 12px !important;
+    font-size: 20px !important;
+}
+ul li{
+    font-weight: 500;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.right-div{
+    /* padding-top: 10%; */
+    width: 90%;
+}
+.name{
+    position: relative;
+    top: 50px;
+}
+.first-name{
+    font-weight: 900 !important;
+    font-size: 30px;
+    /* margin-top: 50px; */
+}
+.last-name{
+    font-weight: 900 !important;
+    font-size: 30px;
+}
+.right-content{
+    margin-top: 80px;
+}
+h5{
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+.train-div-cont{
+    width: 90%;
+    /* line-height: 2px; */
+}
+.gggg{
+    line-height: 2px;
+    padding-left: 14px;
+}
+.box{
+    border: 1px solid black;
+    width: 800px;
+    height: 1000px;
+}
